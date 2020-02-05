@@ -7,9 +7,14 @@
 
 /*-------------------Heading----------------------*/
 
+
 .picture-of-me {
-    background: url(../images/IMG_9595.jpg);
+     background-image: url(../images/IMG_9595.jpg);
+     min-height: 200px;
+     background-size: cover;
+     border-radius: 50%;
 }
+
 
 
 /*--------------------Section-----------------------*/
