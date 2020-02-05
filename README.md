@@ -1,23 +1,32 @@
-# Code Institute
+# My portfolio
 
-Welcome USER_NAME,
+This project contains a portfolio about me.
+This portfolio is information about my life experience,
+jobs and what I want to present to my future employers and coworkers.
 
-We have preinstalled all of the tools you need to get started.
+## UX
 
-To run a frontend application in GitPod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Expose*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend python file, type `python3 app.py`, if your python file is named `app.py` of course.
-
-A blue button should appear to click: *Expose*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons. 
-
-Happy coding!
+## Technologies Used
+- <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> Html </a>
+  
+  
+- <a href="https://sv.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
+## Testing
+  
+  
+## Deployment
+  
+  
+## Credits
+  
+   **content**
+  - 
+   **media**
+  -
+   **Acknowledgements**
+  -
