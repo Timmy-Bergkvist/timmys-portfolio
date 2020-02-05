@@ -25,8 +25,14 @@ jobs and what I want to present to my future employers and coworkers.
 ## Credits
   
    **content**
-  - 
+  - The text for section x was copied from the xxxxxxxx
+  
    **media**
-  -
+  - The photos used in this site were obtained from
+    - xxxxxx xxxxxx
+    
    **Acknowledgements**
-  -
+  - I received inspiration for this project from.
+    - https://www.linkedin.com/
+    - x
+    - x
