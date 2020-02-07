@@ -7,6 +7,11 @@
 
 /*-------------------Heading----------------------*/
 
+body {
+     overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
 #circle-container {
      width: 300px;
      height: 300px;
@@ -25,14 +30,14 @@
      background-size: cover;
      border-radius: 50%;
      
-     animation-name:picture-of-me-zoom; 
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
+     animation-name:picture-of-me-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: backwards;
 }
 
 @keyframes picture-of-me-zoom {
-     from { transform: scale(1); }
-     to { transform: scale(1.1); }
+     from { transform: scale(1.1); }
+     to { transform: scale(1); }
    }
 
 #my-name {
@@ -44,10 +49,22 @@
 
 }
 
+.menu-nopadding{
+     margin: 0 !important;
+     padding: 0 !important;
+}
+
 #menu {
-     font-size: 30px;
+     font-size: 25px;
      list-style: none;
      letter-spacing: 2px;
+     margin: auto;
+     padding: center;
+     padding-top: 200px;
+}
+
+.active{
+     border-bottom: 1px solid #000000; /* göm inte att göra en active till dom andra indexen också till language*/
 }
 
 #menu li {
@@ -63,19 +80,19 @@
 #menu a:hover {
      border-bottom: 1px solid #000000;
 }
-
+/*-----------------heading----language----------------*/
 #language {
-     font-size: 30px;
+     font-size: 28px;
      list-style: none;
      letter-spacing: 2px;
-}
-
-#language li {
-     float: left;
-     margin: 30px;
+     margin: auto;
+     padding: center;
+     padding-top: 150px;
 }
 
 #language a {
+     float: inherit;
+     margin: 200px;
      text-decoration: none;
      color: inherit;
 }
@@ -83,6 +100,12 @@
 #language a:hover {
      border-bottom: 1px solid #000000;
 }
+
+/* .active {
+     border-bottom: 1px solid #000000;
+} */
+
+/*--------------------------------------------------*/
 
 /*--------------------Section-----------------------*/
 
