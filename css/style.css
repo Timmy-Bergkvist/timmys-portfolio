@@ -9,6 +9,7 @@
 
 body {
      overflow-x: hidden; /* Hide horizontal scrollbar */
+     background-color: lawngreen;
 }
 
 
@@ -48,12 +49,12 @@ body {
      letter-spacing: 1px;
 
 }
-
+/*
 .menu-nopadding{
      margin: 0 !important;
      padding: 0 !important;
 }
-
+*/
 #menu {
      font-size: 25px;
      list-style: none;
