@@ -65,7 +65,8 @@ body {
 }
 
 .active{
-     border-bottom: 1px solid #F8F8FF; /* göm inte att göra en active till dom andra indexen också till language*/
+     border-bottom: 1px solid #f8f8f8; /* göm inte att göra en active till dom andra indexen också till language*/
+     
 }
 
 #menu li {
@@ -83,30 +84,50 @@ body {
 }
 /*-----------------heading----language----------------*/
 
-#language {
+.dropbtn {
+     background-color: #778899;
+     color: #000000;
+     padding: 16px;
      font-size: 28px;
-     list-style: none;
-     letter-spacing: 2px;
+     border: none;
+     cursor: pointer;
+     letter-spacing: 1px;
      margin: auto;
-     padding: center;
-     padding-top: 200px;
-}
+     
+   }
+   
+   .dropdown {
+     position: relative;
+     display: inline-block;
+     padding-top: 80px;
 
-#language a {
-     float: inherit;
+   }
+   
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #F8F8FF;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1; 
+   }
+   
+   .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
      text-decoration: none;
-     color: inherit;
-    /* margin: 25px 50px 75px 100px; */
-}
-
-#language a:hover {
-     border-bottom: 1px solid #F8F8FF;
-}
-
-/* .active {
-     border-bottom: 1px solid #000000;
-} */
-
+     display: block;
+   }
+   
+   .dropdown-content a:hover {background-color: #A9A9A9}
+   
+   .dropdown:hover .dropdown-content {
+     display: block;
+   }
+   
+   .dropdown:hover .dropbtn {
+     background-color: #A9A9A9;
+   }
 /*--------------------------------------------------*/
 
 /*--------------------Section-----------------------*/
@@ -131,14 +152,30 @@ footer {
 
 footer,h5,p {
      text-align: center;
-     margin-bottom: 20px;
+     margin-bottom: 15px;
 }
 
-.list-inline i {
+.social-links i {
      color: #F8F8FF;
      text-align: center;
      letter-spacing: 15px;
      font-size: 25px;
+}
+
+.social-links i:hover {
+     color: #A9A9A9;
+}
+
+.fa-download {
+     color: #F8F8FF;
+     text-align: center;
+     letter-spacing: 15px;
+     font-size: 25px;
+     margin-bottom: 10px;
+}
+
+.fa-download:hover {
+     color: #A9A9A9;
 }
 
 
