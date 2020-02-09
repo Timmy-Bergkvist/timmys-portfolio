@@ -134,6 +134,7 @@ body {
 #menu-info {
 background-color: #9aa6b1;
 padding: 10px 10px 10px 10px;
+text-align: center;
 }
 
 .key {
@@ -144,11 +145,6 @@ padding: 10px 10px 10px 10px;
 .personal-info-item {
      padding: 1px;
 }
-
-.container-fluid {
-     
-}
-
 
 
 
@@ -161,12 +157,7 @@ footer {
      overflow: hidden;
      min-height: 100px;
      margin: 0;
-     
-}
-
-footer,h5,p {
      text-align: center;
-     
 }
 
 .social-links i {
@@ -194,4 +185,7 @@ footer,h5,p {
      color: #A9A9A9;
 }
 
-
+#details-in-footer {
+     padding-top: 20px;
+     padding-bottom: 10px;
+}
