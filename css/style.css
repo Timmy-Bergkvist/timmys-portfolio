@@ -58,7 +58,6 @@ body {
      font-size: 25px;
      list-style: none;
      letter-spacing: 2px;
-     margin: auto;
      padding: center;
      padding-top: 200px;
 }
@@ -69,8 +68,8 @@ body {
 }
 
 #menu li {
-     float: left;
-     margin-right: 30px;
+     
+     
 }
 
 #menu a {
