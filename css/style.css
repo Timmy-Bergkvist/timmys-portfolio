@@ -1,16 +1,86 @@
 
-
-/*--------------------Color--------------------*/
-
-
-
-
-/*-------------------Heading----------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
-     overflow-x: hidden; /* Hide horizontal scrollbar */
      background-color: #778899;
 }
+ 
+ /*----------------------Heading-----------------------*/
+ 
+ header {
+     margin: 0;
+ }
+ 
+ .picture-of-me {
+     background: url("../images/IMG_9595.jpg") center center;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100%;
+     padding: 20px;
+     border-radius: 50%;
+
+     animation-name:picture-of-me-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: backwards;
+ }
+
+ @keyframes picture-of-me-zoom {
+     from { transform: scale(1.1); }
+     to { transform: scale(1); }
+}
+ 
+ 
+ .list-inline-item:not(:last-child) {
+     margin: 0;
+ }
+ 
+ .menucontainer {
+     font-size: 0;
+ }
+ 
+ #menu li {
+     font-size: 14px;
+     padding: 0;
+ }
+ 
+ #menu {
+     margin: 0;
+ }
+ 
+ .menuitem {
+     height: 120px;
+     text-align: center;
+     padding: 0;
+ }
+ 
+ .menuitem a {
+     width: 100%;
+     text-decoration: none;
+     color: #fff;
+     height: 120px;
+ }
+ 
+ .menuitem a i {
+     padding-top: 22px;
+     display: block;
+     color: #fafafa;
+     font-size: 26px;
+ }
+ 
+ .menuitem span {
+     display: block;
+     width: 100%;
+     padding-top: 5px;
+     text-align: center;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: 300;
+     letter-spacing: 2px;
+ }
+ 
+
+/*-------------------Heading----------------------*/
 
 
 #circle-container {
@@ -31,22 +101,6 @@ body {
      width: 200%;
 }
 
-#picture-of-me {
-     background: url(../images/IMG_9595.jpg) center center;
-     height: 100%;
-     padding: 20px;
-     background-size: cover;
-     border-radius: 50%;
-     
-     animation-name:picture-of-me-zoom;
-     animation-duration: 5s;
-     animation-fill-mode: backwards;
-}
-
-@keyframes picture-of-me-zoom {
-     from { transform: scale(1.1); }
-     to { transform: scale(1); }
-}
 
 #header-picture {
      width: 100%;
@@ -57,13 +111,14 @@ body {
      background-image: url(../images/stockholm-ny-01.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
+     
 }
 
 #header-picture div {
      background-color: rgba(0,0,0, .4);
      color: #f8f8f8;
 }
-
+/*
 #menu {
      font-size: 25px;
      list-style: none;
@@ -71,17 +126,12 @@ body {
      padding: center;
      padding-top: 175px;
 }
-
+*/
 .active{
-     border-bottom: 1px solid #f8f8f8; /* göm inte att göra en active till dom andra indexen också till language*/
+     border-bottom: 1px solid #f8f8f8;  /*göm inte att göra en active till dom andra indexen också till language*/
      
 }
-
-#menu li {
-     
-     
-}
-
+/*
 #menu a {
      text-decoration: none;
      color: inherit;
@@ -89,11 +139,10 @@ body {
 
 #menu a:hover {
      border-bottom: 1px solid #F8F8FF;
-}
+}*/
 /*---------------heading-dropdown-menu----------------*/
-
 .dropbtn {
-     background-color: #778899;
+     background-color: #F8F8FF;
      color: #000000;
      padding: 16px;
      font-size: 28px;
@@ -101,43 +150,38 @@ body {
      cursor: pointer;
      letter-spacing: 1px;
      margin: auto;
-     
-   }
-   
-   .dropdown {
+}
+.dropdown {
      position: relative;
      display: inline-block;
      padding-top: 80px;
-
-   }
+}
    
-   .dropdown-content {
+.dropdown-content {
      display: none;
      position: absolute;
      background-color: #F8F8FF;
      min-width: 160px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
      z-index: 1; 
-   }
+}
    
-   .dropdown-content a {
+.dropdown-content a {
      color: black;
      padding: 12px 16px;
      text-decoration: none;
      display: block;
-   }
+}
    
-   .dropdown-content a:hover {background-color: #A9A9A9}
+.dropdown-content a:hover {background-color: #A9A9A9}
    
-   .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
      display: block;
-   }
+}
    
-   .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn {
      background-color: #A9A9A9;
-   }
-/*--------------------------------------------------*/
-
+}
 /*--------------------Section-----------------------*/
 
 #menu-info {
@@ -157,7 +201,7 @@ text-align: center;
 
 
 
-/*---------------------Fotter------------------------*/
+/*---------------------Footer------------------------*/
 
 footer {
      background-color: #708090;
