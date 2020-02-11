@@ -119,45 +119,32 @@ body {
 }
 
 /*---------------heading-dropdown-menu----------------*/
-.dropbtn {
-     background-color: #F8F8FF;
-     color: #000000;
-     font-size: 28px;
-     cursor: pointer;
-     letter-spacing: 1px;
-     margin: auto;
-}
+
+
 .dropdown {
-     position: relative;
-     display: inline-block;
-     padding-top: 80px;
+     padding-top: 50px;
+     margin-left: 100px;
 }
-   
-.dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: #F8F8FF;
-     min-width: 145px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1; 
-}
-   
-.dropdown-content a {
-     color: black;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
-}
-   
-.dropdown-content a:hover {background-color: #A9A9A9}
-   
-.dropdown:hover .dropdown-content {
-     display: block;
-}
-   
-.dropdown:hover .dropbtn {
+
+#dropdownMenu2:hover {
      background-color: #A9A9A9;
 }
+
+.dropdown-item:hover {
+     background-color: #a9a9a9 !important;
+}
+
+@media screen and (max-width: 800px) {
+     .dropdown {
+       visibility: hidden;
+       clear: both;
+       float: left;
+       margin: 10px auto 5px 20px;
+       width: 28%;
+       display: none;
+     }
+   }
+
 /*--------------------Section-----------------------*/
 
 #menu-info {
@@ -219,9 +206,8 @@ footer {
      padding-bottom: 10px;
 }
 
-
 /*----------burger manu----------------*/
-
+/*
 :root{
      --primary-color: rgba(13, 110, 139, 0.75);
      --overlay-color: rgba(24, 39, 51, 0.85);
@@ -296,3 +282,4 @@ body {
 .btn:hover {
      opacity: 0.7;
 }
+*/
