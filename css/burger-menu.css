@@ -132,13 +132,13 @@
 
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: lavender;
+    color: #f8f8f8;
     font-size: 1.5rem;
     padding: 1rem;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
-    color: lavender;
+    color: #f8f8f8;
     text-decoration: none;
     transition: color 0.4s ease;
 
