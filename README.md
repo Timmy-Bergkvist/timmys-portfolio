@@ -16,6 +16,10 @@ jobs and what I want to present to my future employers and coworkers.
   
   
 - <a href="https://sv.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
+
+
+- <a href="https://getbootstrap.com/" target="_blank"> Bootstrap </a>
+  
 ## Testing
   
   
@@ -25,15 +29,17 @@ jobs and what I want to present to my future employers and coworkers.
 ## Credits
   
    **content**
-  - The text for section x was copied from the xxxxxxxx
+  - The text for section x was copied from the:
+    - xxxxxxxx xxxxxxx
   
    **media**
-  - The photos used in this site were obtained from
-    - xxxxxx xxxxxx
+  - The photos used in this site were obtained from:
+    - Myself. All pictures used in this project is taken by me Timmy Bergkvist.
     
    **Acknowledgements**
-  - I received inspiration for this project from.
+  - I received inspiration for this project from:
     - https://www.linkedin.com/
+    - https://www.youtube.com/watch?v=DZg6UfS5zYg
     - x
     - x
     - https://github.com/Code-Institute-Solutions/readme-template
