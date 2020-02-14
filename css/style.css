@@ -8,9 +8,7 @@ body {
  
  /*----------------------Heading-----------------------*/
  
- header {
-     
- }
+
  
  .picture-of-me {
      background: url("../images/IMG_9595.jpg") center center;
@@ -49,9 +47,16 @@ body {
       border-top-width: inherit;
  }
  
+ .name {
+      padding-top: 50px;
+      padding-left: 40px;
+      margin: 0;
+
+ }
+
  #menu {
      margin: 0;
-     margin-top: 100px;
+     padding-top:  5px;
  }
 /*---------braking-point-menu-for-ipad----------*/
  @media screen and (max-width: 768px) {
@@ -378,4 +383,10 @@ body {
  
  .history-items {
      margin-bottom: 30px;
+ }
+ /*------------------------About-----------------------*/
+
+ .about-picture {
+      max-width: 100%;
+      height: auto;
  }
