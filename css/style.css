@@ -3,12 +3,13 @@
 
 body {
      background-color: #778899;
+     
 }
  
  /*----------------------Heading-----------------------*/
  
  header {
-     margin: 0;
+     
  }
  
  .picture-of-me {
@@ -108,12 +109,12 @@ body {
      margin: 15% auto;
 }
 
-#circle-container h1 {
+#circle-container p {
      margin: 25px 0px 0px 0px;
      font-size: 30px;
      list-style: none;
      letter-spacing: 1px;
-     width: 200%;
+     width: 200px;
 }
 
 #header-picture {
@@ -165,8 +166,8 @@ body {
 /*--------------------Section-----------------------*/
 
 #menu-info {
-background-color: #9aa6b1;
-padding: 10px 10px 10px 10px;
+background-color: #c5ccd3;
+/*padding: 10px 10px 10px 10px;*/
 text-align: center;
 }
 
@@ -334,14 +335,14 @@ body {
  }
 
  .history-heading {
-     color: #fafafa;
+     color: blue;
      margin-bottom: 50px;
  }
  
  .timeline-item {
      padding: 4em 2em 0em 2em;
      position: relative;
-     color: #fafafa;
+     color: green;
      border-left: 1px solid;
  }
  
@@ -372,7 +373,7 @@ body {
      left: -6px;
      border-radius: 12px;
      content: '';
-     background: #fafafa;
+     background: purple;
  }
  
  .history-items {
