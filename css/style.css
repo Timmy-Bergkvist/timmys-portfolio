@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
-     background-color: #778899;
+     background: /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */ url(../images/background-001.jpg);
+     background-size: 120% 100%;
      
 }
  
@@ -51,7 +52,6 @@ body {
       padding-top: 50px;
       padding-left: 40px;
       margin: 0;
-
  }
 
  #menu {
@@ -62,7 +62,6 @@ body {
  @media screen and (max-width: 768px) {
      #test {
           flex-direction: column;
-          
           display: inline;
      }
    }
@@ -77,6 +76,7 @@ body {
      }
    }
  /*---------------------------------------------------*/
+
 #menu a {
      text-decoration: none;
      font-size: 2rem;
@@ -98,10 +98,11 @@ body {
      color: #fafafa;
  }
 
- 
-
 /*-------------------Heading----------------------*/
 
+header {
+     background-color: rgba(0, 0, 0, 0.2);
+}
 
 #circle-container {
      width: 260px;
@@ -128,9 +129,9 @@ body {
      max-height: 100%;
      margin: 0;
      padding: 0;
-     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stockholm-ny-01.jpg);
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background-001.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat; */
      color: #f8f8f8;
 }
 
@@ -139,41 +140,15 @@ body {
      
 }
 
-/*---------------heading-dropdown-menu----------------*/
-/*
-
-.dropdown {
-     padding-top: 50px;
-     margin-left: 100px;
-}
-
-#dropdownMenu2:hover {
-     background-color: #A9A9A9;
-}
-
-.dropdown-item:hover {
-     background-color: #a9a9a9 !important;
-} */
-/*-----------brakingpint-for-dropdown-Language----------*/
-/*
-@media screen and (max-width: 800px) {
-     .dropdown {
-       visibility: hidden;
-       clear: both;
-       float: left;
-       margin: 10px auto 5px 20px;
-       width: 28%;
-       display: none;
-     }
-   } */
-/*-------------------------------------------------------*/
-
 /*--------------------Section-----------------------*/
 
+
+
 #menu-info {
-background-color: #c5ccd3;
+background-color: rgba(0, 0, 0, 0.2);
 /*padding: 10px 10px 10px 10px;*/
 text-align: center;
+color: #f8f8f8;
 }
 
 .key {
@@ -185,22 +160,35 @@ text-align: center;
      padding: 1px;
 }
 
+.section-column {
+     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.three-reasons-heding {
+     color: #f8f8f8;
+}
+
+.three-reasons-heding, p {
+     color: #f8f8f8;
+}
+
 
 
 /*---------------------Footer------------------------*/
 
 footer {
-     background-color: #708090;
-     color: #000000;
+     
+     color: black;
      width: 100%;
      overflow: hidden;
      min-height: 100px;
      margin: 0;
      text-align: center;
+     
 }
 
 .social-links i {
-     color: #F8F8FF;
+     color: black;
      text-align: center;
      letter-spacing: 10px;
      font-size: 25px;
@@ -213,7 +201,7 @@ footer {
 }
 
 .fa-download {
-     color: #F8F8FF;
+     color: black;
      text-align: center;
      letter-spacing: 15px;
      font-size: 25px;
@@ -227,12 +215,13 @@ footer {
 #details-in-footer {
      padding-top: 20px;
      padding-bottom: 10px;
+     background-color: rgba(172, 165, 165, 0.473);
 }
 
 /*------------------------Contact-------------------------*/
 
 :root{
-     --primary-color: rgba(13, 110, 139, 0.75);
+     --primary-color: rgba(5, 133, 101, 0.521);
      --overlay-color: rgba(24, 39, 51, 0.85);
      --menu-speed: 0.75s;
 }
@@ -265,7 +254,7 @@ body {
 
 .showcase:before {
      content: '';
-     background: url(../images/stockholm-ny-01.jpg) no-repeat center center/cover;
+     background: url(../images/background-003.jpg) no-repeat center center/cover;
      position: absolute;
      top: 0;
      left: 0;
