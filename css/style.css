@@ -3,8 +3,9 @@
 
 body {
      
-     background: /*linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.5)),*/  url(../images/background-001.jpg);
-     background-size: 120% 100%;
+     background: linear-gradient(213deg, rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.836)),  url(../images/background-001.jpg);
+     
+     background-size: 120% 100%; 
      
 }
  
@@ -143,39 +144,39 @@ header {
 
 /*--------------------Section-----------------------*/
 
-
-
 #menu-info {
-     /*padding: 10px 10px 10px 10px;*/
      text-align: center;
 }
 
 .section-heading {
-     color: black;
-     text-shadow: 1px 1px red;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     font-weight: bold;
 }
 
 .key {
      font-size: 100%;
      font-weight: bold;
-     text-shadow: 1px 1px pink;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .value {
-     color: black;
-     text-shadow: 1px 1px rgb(0, 252, 76);
+     color: rgb(177, 177, 177);
+     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .personal-info-item {
      padding: 0;
-     
 }
 
 .section-column {
-    /* background-color: rgba(18, 233, 82, 0.2);*/
+    color: #f8f8f8;
+    text-shadow: rgb(0, 0, 0);
+    text-align: left;
 }
 
 .three-reasons-heding {
-     color: black;
-     text-shadow: 1px 1px gainsboro;
+     color: #f8f8f8;
+     text-shadow: 1px 1px black;
      text-align: center;
 }
 
@@ -193,14 +194,14 @@ footer {
 
 footer h5 {
      font-size: 20px;
-     color: black;
-     text-shadow: 1px 1px rgb(88, 87, 87);
+     color: #f8f8f8;
+    /* text-shadow: 1px 1px rgb(158, 145, 145);*/
      
 }
 
 .social-links i {
-     color: black;
-     text-shadow: 1px 1px rgb(185, 174, 174);
+     color: #f8f8f8;
+     /*text-shadow: 1px 1px rgb(185, 194, 135);*/
      text-align: center;
      letter-spacing: 10px;
      font-size: 22px;
@@ -209,12 +210,12 @@ footer h5 {
 }
 
 .social-links i:hover {
-     color: rgb(102, 128, 175);
+     color: rgb(134, 144, 163);
 }
 
 .fa-download {
-     color: black;
-     text-shadow: 1px 1px gainsboro;
+     color: #f8f8f8;
+    /* text-shadow: 1px 1px gainsboro; */
      text-align: center;
      letter-spacing: 15px;
      font-size: 22px;
@@ -222,20 +223,20 @@ footer h5 {
 }
 
 .fa-download:hover {
-     color: rgb(102, 128, 175);
+     color: rgb(134, 144, 163);
 }
 
 #details-in-footer {
      padding-top: 20px;
      padding-bottom: 10px;
-     
+     /*
      background: rgb(2,0,36);
-     background: linear-gradient(90deg, rgba(155, 153, 177, 0.918) 7%, rgba(18, 114, 76, 0.64) 61%, rgba(57, 144, 161, 0.404) 100%);
+     background: linear-gradient(90deg, rgba(155, 153, 177, 0.918) 7%, rgba(18, 114, 76, 0.64) 61%, rgba(57, 144, 161, 0.404) 100%);*/
 }
 
 #details-in-footer p {
-     color: black;
-     text-shadow: 1px 1px rgba(102, 99, 99, 0.603);
+     color: #f8f8f8;
+    /* text-shadow: 1px 1px rgba(102, 99, 99, 0.603);*/
      font-size: 14px;
      
 }
