@@ -145,10 +145,10 @@ header {
 
 
 #menu-info {
-background-color: rgba(0, 0, 0, 0.2);
+     background-color: rgba(18, 233, 82, 0.2);
 /*padding: 10px 10px 10px 10px;*/
 text-align: center;
-color: #f8f8f8;
+color: black;
 }
 
 .key {
@@ -161,15 +161,15 @@ color: #f8f8f8;
 }
 
 .section-column {
-     background-color: rgba(0, 0, 0, 0.2);
+     background-color: rgba(18, 233, 82, 0.2);
 }
 
 .three-reasons-heding {
-     color: #f8f8f8;
+     color: black;
 }
 
-.three-reasons-heding, p {
-     color: #f8f8f8;
+.three-reasons-heding, p { /*se vad felet är här*/
+     color: black;
 }
 
 
@@ -178,7 +178,6 @@ color: #f8f8f8;
 
 footer {
      
-     color: black;
      width: 100%;
      overflow: hidden;
      min-height: 100px;
@@ -187,8 +186,16 @@ footer {
      
 }
 
+footer h4 {
+     font-size: 30px;
+     color: black;
+     text-shadow: 1px 1px gainsboro;
+
+}
+
 .social-links i {
      color: black;
+     text-shadow: 1px 1px gainsboro;
      text-align: center;
      letter-spacing: 10px;
      font-size: 25px;
@@ -202,6 +209,7 @@ footer {
 
 .fa-download {
      color: black;
+     text-shadow: 1px 1px gainsboro;
      text-align: center;
      letter-spacing: 15px;
      font-size: 25px;
@@ -215,7 +223,14 @@ footer {
 #details-in-footer {
      padding-top: 20px;
      padding-bottom: 10px;
-     background-color: rgba(172, 165, 165, 0.473);
+     background-color: rgba(160, 152, 152, 0.658);
+}
+
+#details-in-footer p {
+     color: black;
+     text-shadow: 1px 0px rgba(220, 220, 220, 0.603);
+     font-size: 17px;
+     
 }
 
 /*------------------------Contact-------------------------*/
