@@ -34,7 +34,7 @@ jobs and what I want to present to my future employers and coworkers.
   
    **media**
   - The photos used in this site were obtained from:
-    - Myself. All pictures used in this project is taken by me Timmy Bergkvist.
+    - <a href="https://pixabay.com/sv/" target="_blank"> pixabay.com </a>
     
    **Acknowledgements**
   - I received inspiration for this project from:
