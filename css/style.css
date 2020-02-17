@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
-     
+     font-family: sans-serif;
+     line-height: 1.4;
+}
+
+.index {
      background: linear-gradient(213deg, rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.836)),  url(../images/background-001.jpg);
-     
-     background-size: 120% 100%; 
-     
+     background-size: 120% 100%;
 }
  
  /*----------------------Heading-----------------------*/
- 
-
  
  .picture-of-me {
      background: url("../images/IMG_9595.jpg") center center;
@@ -32,10 +32,10 @@ body {
      to { transform: scale(1); }
 }
  
- 
+ /*
  .list-inline-item:not(:last-child) {
      margin: 0;
- }
+ } */
  
  .menucontainer {
      font-size: 0;
@@ -51,30 +51,23 @@ body {
  }
  
  .name {
-      padding-top: 50px;
+      padding-top: 80px;
       padding-left: 40px;
       margin: 0;
  }
 
  #menu {
      margin: 0;
-     padding-top:  5px;
+     padding-top: 15px;
  }
-/*---------braking-point-menu-for-ipad----------*/
- @media screen and (max-width: 768px) {
-     #test {
-          flex-direction: column;
-          display: inline;
-     }
-   }
-/*--------------------------------------------------*/   
-/*---------braking-point-menu-for-iphone----------*/
-@media screen and (max-width: 375px) and (min-width: 600px) {
+ 
+/*-----------braking-point-menu-for-iphone-----------*/
+@media screen and (max-width: 600px)  {
       .list-inline {
        font-size: small;
-       width: 28%;
        flex-direction: column;
        margin-top: auto;
+       text-align: center;
      }
    }
  /*---------------------------------------------------*/
@@ -243,22 +236,11 @@ footer h5 {
 
 /*------------------------Contact-------------------------*/
 
-:root{
-     --primary-color: rgba(5, 133, 101, 0.521);
-     --overlay-color: rgba(24, 39, 51, 0.85);
-     --menu-speed: 0.75s;
-}
-
 * {
      box-sizing: border-box;
      margin: 0;
      padding: 0;
 
-}
-
-body {
-     font-family: sans-serif;
-     line-height: 1.4;
 }
 
 .container {
@@ -269,7 +251,7 @@ body {
 }
 
 .showcase {
-     background-color: var(--primary-color);
+     background-color: rgba(5, 133, 101, 0.521);
      color: #f8f8f8;
      height: 100vh;
      position: relative;
@@ -308,7 +290,7 @@ body {
 .btn {
      display: inline-block;
      border: none;
-     background-color: var(--primary-color);
+     background-color: rgba(5, 133, 101, 0.521);
      color: #f8f8f8;
      padding: 0.75rem 1.5rem;
      margin-top: 1rem;
@@ -330,7 +312,7 @@ body {
      margin-top: 15px;
      margin-bottom: 20px;
      color: #fafafa;
-     background-color: #df2323;
+     background-color: #08a822;
  }
  
  /* -----------------------Media Queries------------------*/
@@ -345,6 +327,39 @@ body {
  }
 
  /*-------------------------Resume---------------------------*/
+
+ .resume {
+     background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg) no-repeat center center/cover;
+     background-size: 120% 100%;
+ }
+ /*
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+
+}
+
+.container {
+     max-width: 960px;
+     margin: auto;
+     overflow: hidden;
+     padding: 0 3rem;
+}*/
+
+/*
+.showcase-resume {
+    
+}
+*/
+
+.showcase-resume h1 {
+     font-size: 4rem;
+}
+
+.showcase-resume p {
+     font-size: 1.3rem;
+}
 
  .three-reasons-heading {
      margin-bottom: 15px;
