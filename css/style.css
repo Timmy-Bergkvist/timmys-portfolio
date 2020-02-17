@@ -8,7 +8,7 @@ body {
 
 .index {
      background: linear-gradient(213deg, rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.836)),  url(../images/background-001.jpg);
-     background-size: 120% 100%;
+     background-size: cover;
 }
  
  /*----------------------Heading-----------------------*/
@@ -176,30 +176,31 @@ header {
 /*---------------------Footer------------------------*/
 
 footer {
-     
      width: 100%;
      overflow: hidden;
      min-height: 100px;
      margin: 0;
      text-align: center;
-     
+     padding-top: 20px;
+     padding-bottom: 10px;
+}
+
+footer p {
+     color: #f8f8f8;
+     font-size: 14px;
 }
 
 footer h5 {
      font-size: 20px;
-     color: #f8f8f8;
-    /* text-shadow: 1px 1px rgb(158, 145, 145);*/
-     
+     color: #f8f8f8;  
 }
 
 .social-links i {
      color: #f8f8f8;
-     /*text-shadow: 1px 1px rgb(185, 194, 135);*/
      text-align: center;
      letter-spacing: 10px;
      font-size: 22px;
      margin: 5px;
-     
 }
 
 .social-links i:hover {
@@ -208,7 +209,6 @@ footer h5 {
 
 .fa-download {
      color: #f8f8f8;
-    /* text-shadow: 1px 1px gainsboro; */
      text-align: center;
      letter-spacing: 15px;
      font-size: 22px;
@@ -219,19 +219,8 @@ footer h5 {
      color: rgb(134, 144, 163);
 }
 
-#details-in-footer {
-     padding-top: 20px;
-     padding-bottom: 10px;
-     /*
-     background: rgb(2,0,36);
-     background: linear-gradient(90deg, rgba(155, 153, 177, 0.918) 7%, rgba(18, 114, 76, 0.64) 61%, rgba(57, 144, 161, 0.404) 100%);*/
-}
-
-#details-in-footer p {
-     color: #f8f8f8;
-    /* text-shadow: 1px 1px rgba(102, 99, 99, 0.603);*/
-     font-size: 14px;
-     
+#footer-resume, #footer-about {
+     background: rgba(0, 0, 0, 0.425);
 }
 
 /*------------------------Contact-------------------------*/
@@ -329,8 +318,8 @@ footer h5 {
  /*-------------------------Resume---------------------------*/
 
  .resume {
-     background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg) no-repeat center center/cover;
-     background-size: 120% 100%;
+     background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg);
+     background-size: cover;
  }
  /*
  * {
@@ -363,6 +352,7 @@ footer h5 {
 
  .three-reasons-heading {
      margin-bottom: 15px;
+     text-align: center;
      color: black;
      text-shadow: 1px 1px rgb(255, 255, 255);
  }
@@ -379,7 +369,7 @@ footer h5 {
  .timeline-item {
      padding: 4em 2em 0em 2em;
      position: relative;
-     color: yellow;
+     color: #f8f8f8;
      border-left: 1px solid;
  }
  
@@ -410,7 +400,8 @@ footer h5 {
      left: -6px;
      border-radius: 12px;
      content: '';
-     background: rgb(204, 28, 28);
+     background: rgba(27, 27, 27, 0.747);
+     
  }
  
  .history-items {
@@ -430,11 +421,22 @@ footer h5 {
      text-align: center;
  }
 
-/*
-.certificate-list p {
-     position: absolute;
+.certificate-list h5 {
+     color: black;
 }
- */
+
+.certificate-list p {
+     color: #f8f8f8;
+     
+}
+.certificate-list p a {
+     color: rgb(18, 53, 117);
+}
+
+.certificate-list p a:hover {
+     color: rgb(134, 144, 163);
+     text-shadow: 1px 1px rgb(65, 65, 65);
+}
  /*------------------------About-----------------------*/
 
  .about-picture {
