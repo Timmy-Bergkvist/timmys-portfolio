@@ -173,6 +173,7 @@ header {
      text-align: center;
 }
 
+
 /*---------------------Footer------------------------*/
 
 footer {
@@ -220,7 +221,7 @@ footer h5 {
 }
 
 #footer-resume, #footer-about {
-     background: rgba(0, 0, 0, 0.425);
+     background: rgba(0, 0, 0, 0.493);
 }
 
 /*------------------------Contact-------------------------*/
@@ -350,11 +351,12 @@ footer h5 {
      margin-bottom: 50px;
 }
 
- .three-reasons-heading {
+ .section-underheding-skills {
      margin-bottom: 15px;
      text-align: center;
-     color: black;
-     text-shadow: 1px 1px rgb(255, 255, 255);
+     font-weight: 600;
+     color: #05473c;
+     
  }
 
  .history-heading {
@@ -369,7 +371,7 @@ footer h5 {
  .timeline-item {
      padding: 4em 2em 0em 2em;
      position: relative;
-     color: #f8f8f8;
+     color: #05473c;
      border-left: 1px solid;
  }
  
@@ -412,8 +414,13 @@ footer h5 {
       text-align: center;
       padding-top: 50px;
       margin-bottom: 15px;
-     color: black;
-     text-shadow: 1px 1px rgb(255, 255, 255);
+     color: #05473c;
+     font-weight: 600;
+ }
+
+ .skills-text {
+     color: rgb(177, 9, 9);
+     text-align: center;
  }
 
  .certificate-list {
@@ -422,15 +429,17 @@ footer h5 {
  }
 
 .certificate-list h5 {
-     color: black;
+     color: #05473c;
+     font-weight: 600;
 }
 
 .certificate-list p {
-     color: #f8f8f8;
-     
+     color: #454949;
+     font-weight: 600;
 }
-.certificate-list p a {
-     color: rgb(18, 53, 117);
+.certificate-list a {
+     color: rgb(228, 228, 228);
+     text-shadow: 1px 1px rgba(27, 27, 27, 0.747);
 }
 
 .certificate-list p a:hover {
