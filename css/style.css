@@ -94,11 +94,11 @@ body {
  }
 
 /*-------------------Heading----------------------*/
-
+/*
 header {
-    /* background-color: rgba(0, 0, 0, 0.2);*/
+     background-color: rgba(0, 0, 0, 0.2);
 }
-
+*/
 #circle-container {
      width: 260px;
      height: 260px;
@@ -352,29 +352,34 @@ footer h5 {
     
 }
 */
-
-.showcase-resume h1 {
-     font-size: 4rem;
-}
-
-.showcase-resume p {
-     font-size: 1.3rem;
+.section-heading-skills {
+     padding-top: 100px;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     font-weight: 500;
+     text-align: center;
+     margin-bottom: 50px;
 }
 
  .three-reasons-heading {
      margin-bottom: 15px;
-     color: #df2323;
+     color: black;
+     text-shadow: 1px 1px rgb(255, 255, 255);
  }
 
  .history-heading {
-     color: blue;
+     padding-top: 100px;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     font-weight: 500;
+     text-align: center;
      margin-bottom: 50px;
  }
  
  .timeline-item {
      padding: 4em 2em 0em 2em;
      position: relative;
-     color: green;
+     color: yellow;
      border-left: 1px solid;
  }
  
@@ -405,11 +410,25 @@ footer h5 {
      left: -6px;
      border-radius: 12px;
      content: '';
-     background: purple;
+     background: rgb(204, 28, 28);
  }
  
  .history-items {
      margin-bottom: 30px;
+ }
+
+ .certificate-heding {
+      text-align: center;
+      padding-top: 50px;
+      margin-bottom: 15px;
+     color: black;
+     text-shadow: 1px 1px rgb(255, 255, 255);
+ }
+
+ .certificate-list {
+     padding-top: 100px;
+     text-align: center;
+     
  }
  /*------------------------About-----------------------*/
 
