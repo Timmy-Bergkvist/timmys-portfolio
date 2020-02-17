@@ -353,7 +353,7 @@ footer h5 {
 }
 */
 .section-heading-skills {
-     padding-top: 100px;
+     padding-top: 60px;
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
      font-weight: 500;
@@ -368,7 +368,7 @@ footer h5 {
  }
 
  .history-heading {
-     padding-top: 100px;
+     padding-top: 60px;
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
      font-weight: 500;
@@ -426,10 +426,15 @@ footer h5 {
  }
 
  .certificate-list {
-     padding-top: 100px;
+     padding-top: 30px;
      text-align: center;
-     
  }
+
+/*
+.certificate-list p {
+     position: absolute;
+}
+ */
  /*------------------------About-----------------------*/
 
  .about-picture {
