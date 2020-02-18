@@ -297,7 +297,7 @@ footer h5 {
      margin-top: 15px;
      margin-bottom: 20px;
      color: #fafafa;
-     background-color: #08a822;
+     background-color: #0a691a;
  }
  
  /* -----------------------Media Queries------------------*/
@@ -317,26 +317,7 @@ footer h5 {
      background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg);
      background-size: cover;
  }
- /*
- * {
-     box-sizing: border-box;
-     margin: 0;
-     padding: 0;
 
-}
-
-.container {
-     max-width: 960px;
-     margin: auto;
-     overflow: hidden;
-     padding: 0 3rem;
-}*/
-
-/*
-.showcase-resume {
-    
-}
-*/
 .section-heading-skills {
      padding-top: 60px;
      color: #f8f8f8;
@@ -442,6 +423,10 @@ footer h5 {
      text-shadow: 1px 1px rgb(65, 65, 65);
 }
  /*------------------------About-----------------------*/
+ .about {
+     background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg);
+     background-size: cover;
+ }
 
  .about-picture {
      width: 70%;
