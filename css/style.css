@@ -89,11 +89,7 @@ body {
  }
 
 /*-------------------Heading----------------------*/
-/*
-header {
-     background-color: rgba(0, 0, 0, 0.2);
-}
-*/
+
 #circle-container {
      width: 260px;
      height: 260px;
@@ -119,15 +115,7 @@ header {
      max-height: 100%;
      margin: 0;
      padding: 0;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background-001.jpg);
-     background-size: 100%;
-     background-repeat: no-repeat; */
      color: #f8f8f8;
-}
-
-.active{
-     border-bottom: 1px solid #f8f8f8;  /*göm inte att göra en active till dom andra indexen också till language*/
-     
 }
 
 /*--------------------Section-----------------------*/
@@ -228,7 +216,7 @@ footer h5 {
 
 }
 
-.container {
+.showcase-inner {
      max-width: 960px;
      margin: auto;
      overflow: hidden;
@@ -395,7 +383,7 @@ footer h5 {
  }
 
  .skills-text {
-     color: rgb(177, 9, 9);
+     color: #f8f8f8;
      text-align: center;
  }
 
@@ -428,8 +416,32 @@ footer h5 {
      background-size: cover;
  }
 
+ .about-header-text {
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     font-weight: 500;
+     text-align: center;
+ }
+ .about-container-text {
+     padding-top: 50px;
+     color: #f8f8f8;
+ }
+
  .about-picture {
      width: 70%;
      height: auto;
      border-radius: 50% 50% 50% 50%;
+ }
+
+ .about-picture-container {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+ }
+
+ .about-container {
+     max-width: 1000px;
+     margin: auto;
+     overflow: hidden;
+     padding: 0 3rem;
  }
