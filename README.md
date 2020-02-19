@@ -5,7 +5,14 @@ This portfolio is information about my life experience,
 jobs and what I want to present to my future employers and coworkers.
 
 ## UX
+- 
+**Mockups**
 
+- <a href="../timmys-portfolio/ux/Project-my-portfolio-pc.pdf">Mockup for Pc</a>
+
+- <a href="../timmys-portfolio/ux/Project-my-portfolio-ipad.pdf">Mockup for Ipad</a>
+
+- <a href="../timmys-portfolio/ux/Project-my-portfolio-phone.pdf">Mockup for Phone</a>
 
 
 ## Features
