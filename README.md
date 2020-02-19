@@ -7,11 +7,11 @@ jobs and what I want to present to my future employers and coworkers.
 ## UX
 **Mockups**
 
-- <p><a href="../timmys-portfolio/ux/Project-my-portfolio-pc.pdf" target="_blank">Mockup for Desktop</a></p>
+- <p><a href="https://drive.google.com/file/d/1Rz3fG2M84jpM66sMw0P9DJ_2TGitvDq7/view?usp=sharing">Mockup for Desktop</a></p>
 
-- <a href="../timmys-portfolio/ux/Project-my-portfolio-ipad.pdf">Mockup for Ipad</a>
+- <a href="https://drive.google.com/file/d/1uyIOnN-CA89qb4Mh2rgu93rclTV4rjx0/view?usp=sharing">Mockup for Ipad</a>
 
-- <a href="../timmys-portfolio/ux/Project-my-portfolio-phone.pdf">Mockup for Phone</a>
+- <a href="https://drive.google.com/file/d/1oZnP9YOpAf7c3OWoM2-fDXwZ0vSsI0Nl/view?usp=sharing">Mockup for Phone</a>
 
 
 ## Features
