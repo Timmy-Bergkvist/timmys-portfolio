@@ -146,5 +146,8 @@
     color: #f8f8f8;
     text-decoration: none;
     transition: color 0.4s ease;
+}
 
+.menu-wrap .burger-menu > div > div > ul > li > a:hover {
+    color: #83795a;
 }
