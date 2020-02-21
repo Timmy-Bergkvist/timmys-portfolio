@@ -41,29 +41,41 @@
 
 
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 " id="menu-info">
-                <div class="row">
-                    <div class="col-12"></div>
-                </div>
-                <h1 class="name">Timmy Bergkvist</h1>
-                <div class="row no-gutters" id="header-picture">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div id="circle-container">
-                            <div class="picture-of-me"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section-column">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                <h2 class="three-reasons-heding ">About me</h2>
-                                <p>Full Stack Developper student at Codeinstitute</p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row no-gutters">
+            <div class="d-none d-lg-block col-lg-4 col-xl-4">
+                <div id="header-picture">
+                 <div id="circle-container">
+                    <div class="picture-of-me"></div>
+                 </div>
                 </div>
             </div>
+            <div class="d-none d-lg-block col-lg-8 col-xl-8">
+                <h1 class="name-header">Timmy Bergkvist</h1>
+            </div>
+            <!------This section is hidden in desktop mode-------->
+            <!----------But visuable on tablet and mobile--------->
+            <div class="col-xs-12 col-sm-12 col-md-12 d-lg-none">
+                <h1 class="name-header">Timmy Bergkvist</h1>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 d-lg-none">
+                <div id="header-picture">
+                 <div id="circle-container">
+                    <div class="picture-of-me"></div>
+                 </div>
+                </div>
+            </div>
+            <!------------------------------------------------------->
         </div>
+        <div class="row no-gutters">
+            <div class="col-12 section-column">
+                     <h2 class="about-me-heading">About me</h2>
+                    <p class="about-me-text">Full Stack Developper student at Codeinstitute
+                        I have knowledge in Html and Css and still learning more.
+                        I take consideration into user experience and work on mobilefirst.
+                        As and old painter i like to experiment with design, art and color.
+                    </p>
+             </div>
+         </div>
     </section>
 
 
