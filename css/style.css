@@ -4,15 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Economica|Exo&display=swap');
 
 body {
+     background: linear-gradient( rgba(3, 80, 61, 0.62), rgba(3, 80, 61, 0.62)),  url(../images/background-003.jpg) no-repeat;
+     background-size: cover;
      font-family: sans-serif;
      line-height: 1.4;
 }
 
-.index {
-     background: linear-gradient(213deg, rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.836)),  url(../images/background-003.jpg);
-     background-size: cover;
-}
- 
  /*----------------------Heading-----------------------*/
  
  .picture-of-me {
@@ -38,11 +35,6 @@ body {
      font-size: 0;
  }
  
- #menu li {
-     font-size: 14px;
-     padding: 0;
-     padding-top: 50px;
- }
  .element.style {
       border-top-width: inherit;
  }
@@ -57,11 +49,6 @@ body {
       font-weight: 700;
       font-size: 60px;
  }
-
- #menu {
-     margin: 0;
-     padding-top: 15px;
- }
  
 /*-----------braking-point-menu-for-iphone-----------*/
 @media screen and (max-width: 600px)  {
@@ -73,31 +60,6 @@ body {
      }
    }
  /*---------------------------------------------------*/
-
-#menu a {
-     text-decoration: none;
-     font-size: 2rem;
-     color: #f8f8f8;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-     font-family: 'Economica', sans-serif;
-}
-
-#menu a:hover {
-     border-bottom: 1px solid #454949;
-     color: #83795a;
-}
-
- .menuitem {
-     height: 120px;
-     text-align: center;
-     padding: 0;
- }
- 
- .menuitem a {
-     text-align: center;
-     color: #fafafa;
-     text-shadow: 1px 1px rgb(0, 0, 0);
- }
 
 /*-------------------Heading----------------------*/
 
@@ -177,6 +139,7 @@ footer {
      text-align: center;
      padding-top: 20px;
      padding-bottom: 10px;
+     background: rgba(0, 0, 0, 0.493);
 }
 
 footer p {
@@ -213,10 +176,6 @@ footer h5 {
      color: rgb(134, 144, 163);
 }
 
-#footer-resume, #footer-about {
-     background: rgba(0, 0, 0, 0.493);
-}
-
 /*------------------------Contact-------------------------*/
 
 * {
@@ -242,7 +201,6 @@ footer h5 {
 
 .showcase:before {
      content: '';
-     background: url(../images/background-003.jpg) no-repeat center center/cover;
      position: absolute;
      top: 0;
      left: 0;
@@ -311,11 +269,6 @@ footer h5 {
  }
 
  /*-------------------------Resume---------------------------*/
-
- .resume {
-     background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg);
-     background-size: cover;
- }
 
 .section-heading-skills {
      padding-top: 60px;
@@ -425,10 +378,6 @@ footer h5 {
      text-shadow: 1px 1px rgb(65, 65, 65);
 }
  /*------------------------About-----------------------*/
- .about {
-     background: linear-gradient(0deg, rgba(5, 133, 101, 0.521), rgba(5, 133, 101, 0.521)), url(../images/background-003.jpg);
-     background-size: cover;
- }
 
  .about-header-text {
      color: #f8f8f8;
