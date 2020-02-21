@@ -9,7 +9,7 @@ body {
 }
 
 .index {
-     background: linear-gradient(213deg, rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.836)),  url(../images/background-001.jpg);
+     background: linear-gradient(213deg, rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.836)),  url(../images/background-003.jpg);
      background-size: cover;
 }
  
@@ -230,8 +230,7 @@ footer h5 {
      max-width: 960px;
      margin: auto;
      overflow: hidden;
-     padding: 0 3rem;
-     text-shadow: 1px 1px black;
+     padding: 3rem;
 }
 
 .showcase {
@@ -263,6 +262,7 @@ footer h5 {
 
 .showcase h1 {
      font-size: 4rem;
+     text-shadow: 1px 1px black;
 }
 
 .showcase p {
@@ -274,8 +274,8 @@ footer h5 {
 .btn {
      display: inline-block;
      border: none;
-     background-color: rgba(5, 133, 101, 0.521);
-     color: #f8f8f8;
+     background-color: #f8f8f8;
+     color: black;
      padding: 0.75rem 1.5rem;
      margin-top: 1rem;
      text-decoration: none;
@@ -295,8 +295,8 @@ footer h5 {
  button[type="submit"] {
      margin-top: 15px;
      margin-bottom: 20px;
-     color: #fafafa;
-     background-color: #0a691a;
+     color: black;
+     background-color: #69c5b6;
  }
  
  /* -----------------------Media Queries------------------*/
