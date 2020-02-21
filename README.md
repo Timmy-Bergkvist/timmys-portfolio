@@ -9,15 +9,11 @@ jobs and what I want to present to my future employers and coworkers.
 This portfolio is primarily intended for future employers and colleagues
 to see what I've done and what I can do.
 I have made my portfolio user friendly both for mobile, tablet and desktop.
-The portfolio contains a total of four sections:
+The portfolio contains a total of Three sections:
 
 - Home
   - In home/index section you will see information about me and three options that will take you to 
     about, resume and contact section. This section contains links to social media platforms and a download cv button.
-    
-- About
-  - In the about section you will se information and pictures. There is also a hamburger menu button in the upper left corner
-    that will take you to the other sections.
   
 - Resume
   - In the resume section you will se information and see some of my certificates which is visible in pdf format. There is also a 
@@ -32,11 +28,13 @@ The portfolio contains a total of four sections:
   
   I have used Balsamiq Mockups to visualize images I can work from.
 
-- <a href="https://drive.google.com/file/d/1Rz3fG2M84jpM66sMw0P9DJ_2TGitvDq7/view?usp=sharing" target="_blank">Mockup for Desktop</a>
+- <a href="#" target="_blank">Desktop Home</a> - <a href="#" target="_blank">Resume</a> - <a href="#" target="_blank">Contact</a>
 
-- <a href="https://drive.google.com/file/d/1uyIOnN-CA89qb4Mh2rgu93rclTV4rjx0/view?usp=sharing" target="_blank">Mockup for Tablet</a>
+- <a href="#" target="_blank">Tablet Home</a> - <a href="#" target="_blank">Resume</a> - <a href="#" target="_blank">Contact</a>
 
-- <a href="https://drive.google.com/file/d/1oZnP9YOpAf7c3OWoM2-fDXwZ0vSsI0Nl/view?usp=sharing" target="_blank">Mockup for Phone</a>
+- <a href="#" target="_blank">Mobile Home</a> - <a href="#" target="_blank">Resume</a> - <a href="#" target="_blank">Contact</a>
+
+- <a href="#" target="_blank">Burger menu</a>
 
 
 ## Features
