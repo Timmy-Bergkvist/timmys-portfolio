@@ -265,20 +265,25 @@ footer h5 {
  }
 
  .history-heading {
-     padding-top: 60px;
+     padding-top: 10px;
+     padding-bottom: 10px;
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
      font-weight: 500;
      text-align: center;
-     margin-bottom: 50px;
+     background-color: rgba(3, 80, 61, 0.62);
+ }
+
+ .history-heading-box {
+     padding-left: 40px;
+     padding-right: 40px;
  }
  
  .timeline-item {
      padding: 4em 2em 0em 2em;
      position: relative;
-     color: #05473c;
+     color: #f8f8f8;
      border-left: 1px solid;
-     text-shadow: 0.3px 0px white;
  }
  
  .timeline-item p {
@@ -313,7 +318,7 @@ footer h5 {
  }
  
  .history-items {
-     margin-bottom: 30px;
+     margin-bottom: 0;
  }
 
  .skills-text {
@@ -331,17 +336,43 @@ footer h5 {
      text-align: center;
      margin-bottom: 50px;
 }
+.resume-name {
+     color: #f8f8f8;
+     text-shadow: 2px 2px rgb(0, 0, 0);
+     font-family: 'Economica', sans-serif;
+     font-weight: 700;
+     font-size: 85px;
+     text-align: center;
+     padding-top: 30px;
+}
 
-.key {
-     font-size: 100%;
-     font-weight: bold;
+.first-collum {
+     background: rgba(0, 0, 0, 0.493);
+} 
+
+.second-collum {
+     background: rgba(0, 0, 0, 0.493);
+}
+
+.details-heading-upper {
+     text-align: center;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     padding-bottom: 570px;
+}
+.details-heading {
+     text-align: center;
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
 }
-.value {
-     color: rgb(177, 177, 177);
-     text-shadow: 1px 1px rgb(0, 0, 0);
-}
-.personal-info-item {
+
+.personal-info-text {
      padding: 0;
+     text-align: center;
+     color: #f8f8f8;
 }
+
+.btn-group-collum {
+     text-align: center;
+}
+
