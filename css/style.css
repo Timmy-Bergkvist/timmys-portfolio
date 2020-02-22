@@ -172,20 +172,43 @@ footer h5 {
 
 /*------------------------Contact-------------------------*/
 
-* {
-     box-sizing: border-box;
-     margin: 0;
-     padding: 0;
-
-}
-
+.center-form {
+     padding-top: 10px;
+     margin: 0 auto;
+     max-width: 60%;
+ }
+ 
 .showcase-inner {
      max-width: 960px;
      margin: auto;
      overflow: hidden;
      padding: 3rem;
+     text-align: center;
 }
 
+.contact-header {
+     color: #f8f8f8;
+     text-shadow: 1px 1px black;
+     font-size: 60px;
+     text-align: center;
+}
+
+.contact-text {
+     color: #f8f8f8;
+     text-align: center;
+     max-width: 60%;
+     margin: auto;
+     padding-bottom: 5px;
+}
+
+#fullname {
+     margin-bottom: 5px;
+}
+
+#emailaddress {
+     margin-bottom: 5px;
+}
+/*
 .showcase {
      background-color: rgba(5, 133, 101, 0.521);
      color: #f8f8f8;
@@ -220,7 +243,7 @@ footer h5 {
 .showcase p {
      font-size: 1.3rem;
 }
-
+*/
 /* ----------------------------Contact-button-------------------------*/
 
 .btn {
@@ -238,30 +261,13 @@ footer h5 {
      opacity: 1;
 }
 
- .center-form {
-     padding-top: 10px;
-     margin: 0 auto;
-     max-width: 70%;
- }
- 
  button[type="submit"] {
      margin-top: 15px;
      margin-bottom: 20px;
-     color: black;
-     background-color: #69c5b6;
+     color: #f8f8f8;
+     background-color: #529c90;
  }
  
- /* -----------------------Media Queries------------------*/
- 
- @media(min-width: 992px) {
-     .center-form {
-         padding-top: 30px;
-         min-height: 240px;
-         margin: 0 auto;
-         max-width: 50%;
-     }
- }
-
  /*-------------------------Resume---------------------------*/
 
 .section-heading-skills {
@@ -371,35 +377,3 @@ footer h5 {
      color: rgb(134, 144, 163);
      text-shadow: 1px 1px rgb(65, 65, 65);
 }
- /*------------------------About-----------------------*/
-
- .about-header-text {
-     color: #f8f8f8;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-     font-weight: 500;
-     text-align: center;
- }
- .about-container-text {
-     padding-top: 50px;
-     color: #f8f8f8;
-     text-shadow: 0.7px 0px black;
- }
-
- .about-picture {
-     width: 70%;
-     height: auto;
-     border-radius: 50% 50% 50% 50%;
- }
-
- .about-picture-container {
-      padding-top: 30px;
-      padding-bottom: 20px;
-      padding-left: 40px;
- }
-
- .about-container {
-     max-width: 1000px;
-     margin: auto;
-     overflow: hidden;
-     padding: 0 3rem;
- }
