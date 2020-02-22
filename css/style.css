@@ -316,44 +316,12 @@ footer h5 {
      margin-bottom: 30px;
  }
 
- .certificate-heding {
-      text-align: center;
-      padding-top: 50px;
-      margin-bottom: 15px;
-     color: #05473c;
-     font-weight: 600;
- }
-
  .skills-text {
      color: #f8f8f8;
      text-align: center;
      font-size: large;
      text-shadow: 1px 0px black;
  }
-
- .certificate-list {
-     padding-top: 30px;
-     text-align: center;
- }
-
-.certificate-list h5 {
-     color: #05473c;
-     font-weight: 600;
-}
-
-.certificate-list p {
-     color: #454949;
-     font-weight: 600;
-}
-.certificate-list a {
-     color: rgb(228, 228, 228);
-     text-shadow: 1px 1px rgba(27, 27, 27, 0.747);
-}
-
-.certificate-list p a:hover {
-     color: rgb(134, 144, 163);
-     text-shadow: 1px 1px rgb(65, 65, 65);
-}
 
 .section-heading-skills {
      padding-top: 60px;
