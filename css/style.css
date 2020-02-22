@@ -10,7 +10,7 @@ body {
      line-height: 1.4;
 }
 
- /*----------------------Heading-----------------------*/
+ /*----------------------Heading index----------------------*/
  
  .picture-of-me {
      background: url("../images/IMG_9595.jpg") center center;
@@ -31,27 +31,16 @@ body {
      to { transform: scale(1); }
 }
  
- .menucontainer {
-     font-size: 0;
- }
- 
- .element.style {
-      border-top-width: inherit;
- }
- 
  .name-header {
       padding-top: 80px;
-      padding-left: 40px;
-      margin: 0;
+      margin: auto;
+      text-align: center;
       color: #f8f8f8;
-      text-shadow: 1px 1px rgb(0, 0, 0);
+      text-shadow: 2px 2px rgb(0, 0, 0);
       font-family: 'Economica', sans-serif;
       font-weight: 700;
-      font-size: 60px;
+      font-size: 85px;
  }
-
-
-/*-------------------Heading----------------------*/
 
 #circle-container {
      width: 260px;
@@ -80,26 +69,12 @@ body {
      padding: 0;
 }
 
-/*--------------------Section-----------------------*/
+/*--------------------Section index-----------------------*/
 
 .section-heading {
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
      font-weight: bold;
-}
-
-.key {
-     font-size: 100%;
-     font-weight: bold;
-     color: #f8f8f8;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-}
-.value {
-     color: rgb(177, 177, 177);
-     text-shadow: 1px 1px rgb(0, 0, 0);
-}
-.personal-info-item {
-     padding: 0;
 }
 
 .section-column {
@@ -109,8 +84,22 @@ body {
 }
 
 .about-me-text {
-     width: 500px;
+     max-width: 50%;
      text-align: center;
+     color: #f8f8f8;
+     margin: auto;
+     padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 375px) {
+     .about-me-text {
+          max-width: 85%;
+          text-align: center;
+          color: #f8f8f8;
+          margin: auto;
+          padding-bottom: 30px;
+     }
+
 }
 
 .about-me-heading {
@@ -119,9 +108,6 @@ body {
      text-align: center;
      font-size: 40px;
 }
-
-
-
 
 /*---------------------Footer------------------------*/
 
@@ -270,15 +256,6 @@ footer h5 {
  
  /*-------------------------Resume---------------------------*/
 
-.section-heading-skills {
-     padding-top: 60px;
-     color: #f8f8f8;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-     font-weight: 500;
-     text-align: center;
-     margin-bottom: 50px;
-}
-
  .section-underheding-skills {
      margin-bottom: 15px;
      text-align: center;
@@ -376,4 +353,27 @@ footer h5 {
 .certificate-list p a:hover {
      color: rgb(134, 144, 163);
      text-shadow: 1px 1px rgb(65, 65, 65);
+}
+
+.section-heading-skills {
+     padding-top: 60px;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     font-weight: 500;
+     text-align: center;
+     margin-bottom: 50px;
+}
+
+.key {
+     font-size: 100%;
+     font-weight: bold;
+     color: #f8f8f8;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.value {
+     color: rgb(177, 177, 177);
+     text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.personal-info-item {
+     padding: 0;
 }
