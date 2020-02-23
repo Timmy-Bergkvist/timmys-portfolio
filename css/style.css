@@ -194,42 +194,7 @@ footer h5 {
 #emailaddress {
      margin-bottom: 5px;
 }
-/*
-.showcase {
-     background-color: rgba(5, 133, 101, 0.521);
-     color: #f8f8f8;
-     height: 100vh;
-     position: relative;
-}
 
-.showcase:before {
-     content: '';
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     z-index: -1;
-}
-
-.showcase .showcase-inner {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     height: 100%;
-}
-
-.showcase h1 {
-     font-size: 4rem;
-     text-shadow: 1px 1px black;
-}
-
-.showcase p {
-     font-size: 1.3rem;
-}
-*/
 /* ----------------------------Contact-button-------------------------*/
 
 .btn {
@@ -293,19 +258,6 @@ footer h5 {
      padding: 0;
      margin: 0;
  }
- /*
- .timeline-item:after {
-     width: 12px;
-     height: 12px;
-     display: block;
-     top: 2.4em;
-     position: absolute;
-     left: -6px;
-     border-radius: 12px;
-     content: '';
-     background: rgba(27, 27, 27, 0.747);
-     
- } */
  
  .history-items {
      margin-bottom: 0;
@@ -350,6 +302,19 @@ footer h5 {
      text-shadow: 1px 1px rgb(0, 0, 0);
      padding-bottom: 500px;
 }
+/*---------braking point for tablet----------*/
+@media only screen and (max-width: 768px){
+     .details-heading-upper {
+          padding-bottom: 30px;
+     }
+}
+/*----------braking point for mobile----------*/
+@media only screen and (max-width: 376px){
+     .details-heading-upper {
+          padding-bottom: 30px;
+     }
+}
+/*----------------------------------------------*/
 .details-heading {
      text-align: center;
      color: #f8f8f8;
