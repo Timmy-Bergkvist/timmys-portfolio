@@ -32,7 +32,8 @@ body {
 }
  
  .name-header {
-      padding-top: 125px;
+      padding-top: 40px;
+      padding-bottom: 40px;
       margin: auto;
       text-align: center;
       color: #f8f8f8;
@@ -63,7 +64,7 @@ body {
 
 #header-picture {
      width: 100%;
-     height: 100%;
+    /* height: 100%; */
      max-height: 100%;
      margin: 0;
      padding: 0;
@@ -100,7 +101,12 @@ body {
      color: #f8f8f8;
      text-shadow: 1px 1px black;
      text-align: center;
-     font-size: 40px;
+     
+}
+
+#test {
+     background: rgba(0, 0, 0, 0.404);
+     border-radius: 2%;
 }
 
 /*------------------------Contact-------------------------*/
@@ -112,17 +118,21 @@ body {
  }
  
 .showcase-inner {
-     max-width: 960px;
+     max-width: 800px;
      margin: auto;
      overflow: hidden;
-     padding: 3rem;
+     padding: 60px;
      text-align: center;
+     background: rgba(0, 0, 0, 0.404);
+     margin-bottom: 30px;
+     margin-top: 30px;
+     border-radius: 2%;
 }
 
 .contact-header {
      color: #f8f8f8;
      text-shadow: 1px 1px black;
-     font-size: 60px;
+     font-size: 40px;
      text-align: center;
 }
 
@@ -167,14 +177,18 @@ body {
  }
  
  /*-------------------------Resume---------------------------*/
-
+ .container {
+      margin-bottom: 30px;
+      margin-top: 30px;
+ }
  .history-heading {
      padding-top: 10px;
      padding-bottom: 10px;
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
      font-weight: 500;
-     text-align: center;
+     text-align: left;
+     padding-left: 20px;
      background-color: rgba(3, 80, 61, 0.62);
  }
 
@@ -185,7 +199,7 @@ body {
  }
  
  .timeline-item {
-     padding: 35px 0px 0px 40px;
+     padding: 35px 0px 0px 55px;
      position: relative;
      color: #f8f8f8;
  }
@@ -219,31 +233,21 @@ body {
 
 .first-collum {
      background: rgba(0, 0, 0, 0.541);
+     
 } 
 
 .second-collum {
      background: rgba(0, 0, 0, 0.404);
+     
 }
 
 .details-heading-upper {
      text-align: center;
      color: #f8f8f8;
      text-shadow: 1px 1px rgb(0, 0, 0);
-     padding-bottom: 450px;
+     padding-bottom: 50px;
 }
-/*---------braking point for tablet----------*/
-@media only screen and (max-width: 768px){
-     .details-heading-upper {
-          padding-bottom: 30px;
-     }
-}
-/*----------braking point for mobile----------*/
-@media only screen and (max-width: 376px){
-     .details-heading-upper {
-          padding-bottom: 30px;
-     }
-}
-/*----------------------------------------------*/
+
 .details-heading {
      text-align: center;
      color: #f8f8f8;
@@ -261,6 +265,30 @@ body {
 .btn-group-collum {
      text-align: center;
 }
+
+.skills-info {
+     padding-bottom: 10px;
+     text-align: left;
+     color: #f8f8f8;
+     margin: auto;
+     padding: 35px 0px 0px 55px;
+     font-family: "Exo", sans-serif;
+}
+
+.Certifications  {
+     list-style-type: none;
+     padding: 35px 0px 35px 55px;
+}
+
+.Certifications a {
+     color: #f8f8f8;
+     font-family: "Exo", sans-serif;
+}
+
+.Certifications li {
+     padding-top: 5px;
+}
+
 
 /*---------------------Footer------------------------*/
 
