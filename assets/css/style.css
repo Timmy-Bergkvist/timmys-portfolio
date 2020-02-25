@@ -6,9 +6,11 @@
 body {
      background: linear-gradient( rgba(3, 80, 61, 0.62), rgba(3, 80, 61, 0.62)),  url(../images/background-003.jpg) no-repeat;
      background-size: cover;
-     
      font-family: sans-serif;
-     line-height: 1.4em;
+     position: relative;
+     background-position: center;
+     background-attachment: fixed;
+     /*min-height: 100%; */
 }
 
  /*----------------------Heading index----------------------*/
@@ -104,11 +106,6 @@ body {
      
 }
 
-#test {
-     background: rgba(0, 0, 0, 0.404);
-     border-radius: 2%;
-}
-
 /*------------------------Contact-------------------------*/
 
 .center-form {
@@ -177,9 +174,11 @@ body {
  }
  
  /*-------------------------Resume---------------------------*/
- .container {
+ .resume-wrap{
       margin-bottom: 30px;
       margin-top: 30px;
+      margin-left: 50px;
+      margin-right: 50px;
  }
  .history-heading {
      padding-top: 10px;
@@ -288,14 +287,27 @@ body {
 
 /*---------------------Footer------------------------*/
 
+
+
+
+
+
+
+
+
+
+/*
 footer {
+     
+     position: fixed;
+     bottom: 0;
      width: 100%;
-     overflow: hidden;
-     min-height: 100px;
-     margin: 0;
-     text-align: center;
+     /*height: 14.5rem; */
+     /*overflow: hidden;*/
+     /*min-height: 100px; */
+     /*margin: 0;*/
+ /*    text-align: center;
      padding-top: 20px;
-     padding-bottom: 10px;
      background: rgba(0, 0, 0, 0.493);
 }
 
@@ -332,3 +344,4 @@ footer h5 {
 .fa-download:hover {
      color: rgb(134, 144, 163);
 }
+*/
