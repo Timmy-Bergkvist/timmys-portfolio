@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Economica|Exo&display=swap');
 
+/*-------------background picture and portfolio picture----------------------*/
+
 body {
      background: linear-gradient( rgba(3, 80, 61, 0.62), rgba(3, 80, 61, 0.62)),  url(../images/background-003.jpg) no-repeat;
      background-size: cover;
@@ -12,10 +14,8 @@ body {
      background-attachment: fixed;
      /*min-height: 100%; */
 }
-
- /*----------------------Heading index----------------------*/
  
- .picture-of-me {
+ .portfolio-pucture {
      background: url("../images/IMG_9595.jpg") center center;
      background-position: center;
      background-repeat: no-repeat;
@@ -24,17 +24,17 @@ body {
      padding: 20px;
      border-radius: 50%;
 
-     animation-name:picture-of-me-zoom;
+     animation-name:portfolio-pucture-zoom;
      animation-duration: 5s;
      animation-fill-mode: backwards;
  }
 
- @keyframes picture-of-me-zoom {
+ @keyframes portfolio-pucture-zoom {
      from { transform: scale(1.1); }
      to { transform: scale(1); }
 }
  
- .name-header {
+ .portfolio-name {
       padding-top: 40px;
       padding-bottom: 40px;
       margin: auto;
@@ -57,35 +57,14 @@ body {
      margin: 15% auto;
 }
 
-#circle-container p {
-     margin: 25px 0px 0px 0px;
-     font-size: 30px;
-     list-style: none;
-     letter-spacing: 1px;
-     width: 200px;
-}
+/*--------------------Section-----------------------*/
 
-#header-picture {
-     width: 100%;
-     max-height: 100%;
-     margin: 0;
-     padding: 0;
-}
-
-/*--------------------Section index-----------------------*/
-
-.about-me-column {
-     color: #f8f8f8;
-     text-shadow: rgb(0, 0, 0);
-     text-align: center;
-}
-
-.about-me-text {
-     max-width: 50%;
+.sub-text {
+     max-width: 60%;
      text-align: center;
      color: #f8f8f8;
      margin: auto;
-     padding-bottom: 40px;
+     padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 375px) {
@@ -99,11 +78,11 @@ body {
 
 }
 
-.about-me-heading {
+.header-one {
      color: #f8f8f8;
      text-shadow: 1px 1px black;
      text-align: center;
-     
+     font-family: sans-serif;
 }
 
 /*------------------------Contact-------------------------*/
@@ -126,26 +105,7 @@ body {
      border-radius: 2%;
 }
 
-.contact-header {
-     color: #f8f8f8;
-     text-shadow: 1px 1px black;
-     font-size: 40px;
-     text-align: center;
-}
-
-.contact-text {
-     color: #f8f8f8;
-     text-align: center;
-     max-width: 60%;
-     margin: auto;
-     padding-bottom: 5px;
-}
-
-#fullname {
-     margin-bottom: 5px;
-}
-
-#emailaddress {
+#fullname, #emailaddress {
      margin-bottom: 5px;
 }
 
@@ -174,13 +134,25 @@ body {
  }
  
  /*-------------------------Resume---------------------------*/
- .resume-wrap{
-      margin-bottom: 30px;
-      margin-top: 30px;
-      margin-left: 50px;
-      margin-right: 50px;
- }
- .history-heading {
+
+ .resume-frame{
+     margin-bottom: 30px;
+     margin-top: 30px;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+
+ .left-resume-frame {
+     background: rgba(0, 0, 0, 0.541);
+     
+} 
+
+ .right-resume-frame {
+     background: rgba(0, 0, 0, 0.404);
+     
+}
+
+ .timeline-heading {
      padding-top: 10px;
      padding-bottom: 10px;
      color: #f8f8f8;
@@ -191,7 +163,7 @@ body {
      background-color: rgba(3, 80, 61, 0.62);
  }
 
- .history-heading-box {
+ .timeline-frame {
      padding-top: 40px;
      padding-left: 40px;
      padding-right: 40px;
@@ -208,105 +180,29 @@ body {
      margin: 0;
      font-family: "Exo", sans-serif;
  }
- 
- .skills-text {
-     color: #f8f8f8;
-     text-align: center;
-     font-size: large;
-     text-shadow: 1px 0px black;
- }
 
-.resume-name {
-     color: #f8f8f8;
-     text-shadow: 2px 2px rgb(0, 0, 0);
-     font-family: 'Economica', sans-serif;
-     font-weight: 700;
-     font-size: 85px;
-     text-align: center;
-     padding-top: 30px;
-}
-
-.first-collum {
-     background: rgba(0, 0, 0, 0.541);
-     
-} 
-
-.second-collum {
-     background: rgba(0, 0, 0, 0.404);
-     
-}
-
-.details-heading-upper {
-     text-align: center;
-     color: #f8f8f8;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-     padding-bottom: 50px;
-}
-
-.details-heading {
-     text-align: center;
-     color: #f8f8f8;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-}
-
-.personal-info-text {
-     padding-bottom: 10px;
-     text-align: center;
-     color: #f8f8f8;
-     max-width: 80%;
-     margin: auto;
-}
-
-.btn-group-collum {
-     text-align: center;
-}
-
-.skills-info {
-     padding-bottom: 10px;
-     text-align: left;
-     color: #f8f8f8;
-     margin: auto;
-     padding: 35px 0px 0px 55px;
-     font-family: "Exo", sans-serif;
-}
-
-.Certifications  {
-     list-style-type: none;
-     padding: 35px 0px 35px 55px;
-}
-
-.Certifications a {
+.timeline-item a {
      color: #f8f8f8;
      font-family: "Exo", sans-serif;
 }
 
-.Certifications li {
+.timeline-item li {
      padding-top: 5px;
 }
-
 
 /*---------------------Footer------------------------*/
 
 
-
-
-
-
-
-
-
-
-/*
 footer {
      
-     position: fixed;
+     /*position: fixed;*/
      bottom: 0;
      width: 100%;
      /*height: 14.5rem; */
      /*overflow: hidden;*/
-     /*min-height: 100px; */
+     min-height: 100px; 
      /*margin: 0;*/
- /*    text-align: center;
+     text-align: center;
      padding-top: 20px;
      background: rgba(0, 0, 0, 0.493);
 }
@@ -344,4 +240,3 @@ footer h5 {
 .fa-download:hover {
      color: rgb(134, 144, 163);
 }
-*/
