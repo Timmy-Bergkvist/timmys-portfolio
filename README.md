@@ -77,6 +77,9 @@ At the moment the form in contact me section is not operating because it not hos
   
 ## Deployment
   
+  The hosting platform for this project is GitHub and can be run directly here on github.
+  
+  https://timmy-bergkvist.github.io/timmys-portfolio/index.html
   
 ## Credits
   
