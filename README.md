@@ -80,4 +80,4 @@ The portfolio contains a total of Three sections:
     - https://www.youtube.com/watch?v=DZg6UfS5zYg
     - https://www.sitebuilderreport.com/
     - https://github.com/Code-Institute-Solutions/readme-template
-    - <a href="about-inspiration.png">Inspiration to about sektion</a>
+    - <a href="about-inspiration.jpg" target="_blank">Inspiration to about section</a>
