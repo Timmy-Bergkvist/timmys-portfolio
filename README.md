@@ -28,7 +28,7 @@ The portfolio contains a total of Three sections:
   
   I have used Balsamiq Mockups to visualize images I can work from.
 
-- <a href="#" target="_blank">Desktop Home</a> - <a href="#" target="_blank">Resume</a> - <a href="#" target="_blank">Contact</a>
+- <a href="/assets/mockups/Project-home-desktop.pdf" target="_blank">Desktop Home</a> - <a href="#" target="_blank">Resume</a> - <a href="#" target="_blank">Contact</a>
 
 - <a href="#" target="_blank">Tablet Home</a> - <a href="#" target="_blank">Resume</a> - <a href="#" target="_blank">Contact</a>
 
