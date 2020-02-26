@@ -62,8 +62,18 @@ The portfolio contains a total of Three sections:
 
 - <a href="https://en.wikipedia.org/wiki/Balsamiq" target="_blank"> Balsamiq </a>
   
-## Testing
+## Testing 
+
+At the moment the form in contact me section is not operating because it not hosted on a server yet.
+
+  The Home, Resume and Contact page's ar tested and fully funktional in both desktop, tablet and mobile mode.
+
+  - The HTML code is run and tested at:
+    - https://validator.w3.org/#validate_by_input
   
+  - The CSS code is run and tested at:
+    - https://jigsaw.w3.org/css-validator/#validate_by_input
+    
   
 ## Deployment
   
@@ -80,4 +90,4 @@ The portfolio contains a total of Three sections:
     - https://www.youtube.com/watch?v=DZg6UfS5zYg
     - https://www.sitebuilderreport.com/
     - https://github.com/Code-Institute-Solutions/readme-template
-    - <a href="/assets/images/about-inspiration.jpg" target="_blank">Inspiration to about section</a>
+    - <a href="/assets/images/about-inspiration.jpg" target="_blank">Inspiration for about section</a>
