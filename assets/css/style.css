@@ -85,6 +85,10 @@ body {
      font-family: sans-serif;
 }
 
+#header-one {
+     padding-bottom: 70px;
+}
+
 /*------------------------Contact-------------------------*/
 
 .center-form {
@@ -189,7 +193,17 @@ body {
 .timeline-item li {
      padding-top: 5px;
 }
+/*----------breaking point for iphone 5-------------*/
+@media only screen and (max-width: 350px) {
+     .resume-frame {
 
+     margin-bottom: 30px;
+     margin-top: 30px;
+     margin-left: 13px;
+     margin-right: 13px;
+
+     }
+}
 /*---------------------Footer------------------------*/
 
 
