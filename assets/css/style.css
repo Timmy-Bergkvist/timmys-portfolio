@@ -8,7 +8,6 @@
 html, body {
      background: linear-gradient( rgba(3, 80, 61, 0.62), rgba(3, 80, 61, 0.62)),  url(../images/background-003.jpg) no-repeat;
      background-size: cover;
-     font-family: sans-serif;
      position: relative;
      background-position: center;
      background-attachment: fixed;
@@ -79,6 +78,7 @@ html, body {
      color: #f8f8f8;
      margin: auto;
      padding-bottom: 30px;
+     font-family: sans-serif;
 }
 
 @media only screen and (max-width: 375px) {
@@ -101,6 +101,7 @@ html, body {
 
 #header-one {
      padding-bottom: 70px;
+     font-family: sans-serif;
 }
 
 /*------------------------Contact-------------------------*/
@@ -179,6 +180,7 @@ html, body {
      text-align: left;
      padding-left: 20px;
      background-color: rgba(3, 80, 61, 0.62);
+     font-family: sans-serif;
 }
 
 .timeline-frame {
@@ -191,6 +193,7 @@ html, body {
      padding: 35px 0px 0px 55px;
      position: relative;
      color: #f8f8f8;
+     font-family: sans-serif;
 }
  
 .timeline-item p {
@@ -232,11 +235,13 @@ html, body {
 #footer p {
      color: #f8f8f8;
      font-size: 14px;
+     font-family: sans-serif;
 }
 
 #footer h5 {
      font-size: 20px;
      color: #f8f8f8;
+     font-family: sans-serif;
 }
 
 .social-links i {
@@ -245,6 +250,7 @@ html, body {
      letter-spacing: 10px;
      font-size: 22px;
      margin: 5px;
+     
 }
 
 .social-links i:hover {
@@ -257,6 +263,7 @@ html, body {
      letter-spacing: 15px;
      font-size: 22px;
      margin-bottom: 10px;
+     padding-top: 5px;
 }
 
 .fa-download:hover {
