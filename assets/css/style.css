@@ -14,12 +14,12 @@ html, body {
      background-attachment: fixed;
      height: 100%;
 }
-/*
+
 * {
      margin: 0;
      padding: 0;
 }
-*/
+
 #container {
      min-height: 100%;
 }
@@ -29,7 +29,7 @@ html, body {
      padding-bottom: 110px;
 }
  
- .portfolio-picture {
+.portfolio-picture {
      background: url("../images/IMG_9595.jpg") center center;
      background-position: center;
      background-repeat: no-repeat;
@@ -41,24 +41,24 @@ html, body {
      animation-name:portfolio-pucture-zoom;
      animation-duration: 5s;
      animation-fill-mode: backwards;
- }
+}
 
  @keyframes portfolio-pucture-zoom {
      from { transform: scale(1.1); }
      to { transform: scale(1); }
 }
  
- .portfolio-name {
-      padding-top: 40px;
-      padding-bottom: 40px;
-      margin: auto;
-      text-align: center;
-      color: #f8f8f8;
-      text-shadow: 2px 2px rgb(0, 0, 0);
-      font-family: 'Economica', sans-serif;
-      font-weight: 700;
-      font-size: 85px;
- }
+.portfolio-name {
+     padding-top: 40px;
+     padding-bottom: 40px;
+     margin: auto;
+     text-align: center;
+     color: #f8f8f8;
+     text-shadow: 2px 2px rgb(0, 0, 0);
+     font-family: 'Economica', sans-serif;
+     font-weight: 700;
+     font-size: 85px;
+}
 
 .circle-container {
      width: 260px;
@@ -153,24 +153,24 @@ html, body {
  
  /*-------------------------Resume---------------------------*/
 
- .resume-frame{
+.resume-frame {
      margin-bottom: 30px;
      margin-top: 30px;
      margin-left: 50px;
      margin-right: 50px;
 }
 
- .left-resume-frame {
+.left-resume-frame {
      background: rgba(0, 0, 0, 0.541);
      
 } 
 
- .right-resume-frame {
+.right-resume-frame {
      background: rgba(0, 0, 0, 0.404);
      
 }
 
- .timeline-heading {
+.timeline-heading {
      padding-top: 10px;
      padding-bottom: 10px;
      color: #f8f8f8;
@@ -179,25 +179,25 @@ html, body {
      text-align: left;
      padding-left: 20px;
      background-color: rgba(3, 80, 61, 0.62);
- }
+}
 
- .timeline-frame {
+.timeline-frame {
      padding-top: 40px;
      padding-left: 40px;
      padding-right: 40px;
  }
  
- .timeline-item {
+.timeline-item {
      padding: 35px 0px 0px 55px;
      position: relative;
      color: #f8f8f8;
- }
+}
  
- .timeline-item p {
+.timeline-item p {
      padding: 0;
      margin: 0;
      font-family: "Exo", sans-serif;
- }
+}
 
 .timeline-item a {
      color: #f8f8f8;
@@ -221,29 +221,14 @@ html, body {
 /*---------------------Footer------------------------*/
 
 #footer {
-     background-color: rgba(0, 0, 0, 0.493);
+     background: rgba(0, 0, 0, 0.493);
      position: relative;
-     height: 110px;
-    /* margin: -100px; */
+     height: fit-content;
      clear: both;
      text-align: center;
-     
-     
+     padding-top: 20px;    
 }
-/*
-footer {
-     
-     
-     bottom: 0;
-     width: 100%;
 
-     min-height: 100px; 
-     
-     text-align: center;
-     padding-top: 20px;
-     background: rgba(0, 0, 0, 0.493);
-}
-*/
 #footer p {
      color: #f8f8f8;
      font-size: 14px;
@@ -251,7 +236,7 @@ footer {
 
 #footer h5 {
      font-size: 20px;
-     color: #f8f8f8;  
+     color: #f8f8f8;
 }
 
 .social-links i {
