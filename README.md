@@ -1,8 +1,7 @@
 # My portfolio
 
-This project contains a portfolio about me.
-This portfolio is information about my life experience,
-jobs and what I want to present to my future employers and coworkers.
+This project contains information about my work experience, skills,
+education, certifications and what I want to present to my future employers and coworkers.
 
 ## UX
 
@@ -66,7 +65,7 @@ The portfolio contains a total of Three sections:
 
 At the moment the form in contact me section is not operating because it not hosted on a server yet.
 
-  The Home, Resume and Contact page's ar tested and fully funktional in both desktop, tablet and mobile mode.
+  The Home, Resume and Contact pages are tested and fully functional in both desktop, tablet and mobile mode.
 
   - The HTML code is run and tested at:
     - https://validator.w3.org/#validate_by_input
@@ -93,4 +92,4 @@ At the moment the form in contact me section is not operating because it not hos
     - https://www.youtube.com/watch?v=DZg6UfS5zYg
     - https://www.sitebuilderreport.com/
     - https://github.com/Code-Institute-Solutions/readme-template
-    - <a href="/assets/images/about-inspiration.jpg" target="_blank">Inspiration for about section</a>
+    - <a href="/assets/images/about-inspiration-picture.jpg" target="_blank">Inspiration for about section</a>

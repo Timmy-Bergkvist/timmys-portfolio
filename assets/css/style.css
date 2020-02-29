@@ -6,7 +6,7 @@
 /*-------------background picture and portfolio picture----------------------*/
 
 html, body {
-     background: linear-gradient( rgba(3, 80, 61, 0.62), rgba(3, 80, 61, 0.62)),  url(../images/background-003.jpg) no-repeat;
+     background: linear-gradient( rgba(3, 80, 61, 0.62), rgba(3, 80, 61, 0.62)),  url(../images/background-picture.jpg.jpg) no-repeat;
      background-size: cover;
      position: relative;
      background-position: center;
@@ -29,7 +29,7 @@ html, body {
 }
  
 .portfolio-picture {
-     background: url("../images/IMG_9595.jpg") center center;
+     background: url("../images/portfolio-picture.jpg") center center;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
