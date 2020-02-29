@@ -73,6 +73,7 @@ At the moment the form in contact me section is not operating because it not hos
   - The CSS code is run and tested at:
     - https://jigsaw.w3.org/css-validator/#validate_by_input
     
+  If using Mozilla Firefox there can be a bug in the footer, the footer is not position at the bottom.
   
 ## Deployment
   
