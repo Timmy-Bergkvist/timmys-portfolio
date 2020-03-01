@@ -38,7 +38,7 @@
 
 /*-----------praking point for iphone---------*/
 /*---------turning background transparant-----*/
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .menu-wrap .hamburger {
     position: absolute;
     top: 0;
