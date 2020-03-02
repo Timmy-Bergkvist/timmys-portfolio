@@ -53,7 +53,7 @@ The portfolio contains a total of Three sections:
 ## Technologies Used
 - <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> Html </a>
   
-- <a heref="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
+- <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
 
 - <a href="https://getbootstrap.com/" target="_blank"> Bootstrap </a>
 
