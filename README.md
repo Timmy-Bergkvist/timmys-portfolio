@@ -66,6 +66,7 @@ The portfolio contains a total of Three sections:
 At the moment the form in contact me section is not operating because it not hosted on a server yet.
 
   The Home, Resume and Contact pages are tested and fully functional in both desktop, tablet and mobile mode.
+  Most of the test have been run on the chrome browser. 
 
   - The HTML code is run and tested at:
     - https://validator.w3.org/#validate_by_input
