@@ -26,7 +26,7 @@ The portfolio contains a total of Three sections:
 
 - <a href="/assets/mockups/Project-home-desktop.pdf" target="_blank">Desktop Home</a> - <a href="/assets/mockups/Project-home-tablet.pdf" target="_blank">Tablet Home</a> - <a href="/assets/mockups/Project-home-mobile.pdf" target="_blank">Mobile Home</a>
 
-- <a href="/assets/mockups/Project-about-desktop.pdf" target="_blank">About Desktop</a> - <a href="/assets/mockups/Project-about-tablet.pdf" target="_blank">About tablet</a> - <a href="/assets/mockups/Project-about-mobile.pdf" target="_blank">About Mobile</a>
+- <a href="/assets/mockups/Project-about-desktop.pdf" target="_blank">About Desktop</a> - <a href="/assets/mockups/Project-about-tablet.pdf" target="_blank">About tablet</a> - <a href="/assets/mockups/project-about-mobile.pdf" target="_blank">About Mobile</a>
 
 - <a href="/assets/mockups/Project-contact-desktop.pdf" target="_blank">Contact Desktop</a> - <a href="/assets/mockups/Project-contact-tablet.pdf" target="_blank">Contact Tablet</a> - <a href="/assets/mockups/Project-contact-mobile.pdf" target="_blank">Contact Mobile</a>
 
