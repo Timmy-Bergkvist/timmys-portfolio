@@ -53,11 +53,11 @@ The portfolio contains a total of Three sections:
 ## Technologies Used
 - <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> Html </a>
   
-  
-- <a href="https://sv.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
-
+- <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank"> Css </a>
 
 - <a href="https://getbootstrap.com/" target="_blank"> Bootstrap </a>
+
+- <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"> JavaScript </a>
 
 - <a href="https://en.wikipedia.org/wiki/Balsamiq" target="_blank"> Balsamiq </a>
   
@@ -66,6 +66,7 @@ The portfolio contains a total of Three sections:
 At the moment the form in contact me section is not operating because it not hosted on a server yet.
 
   The Home, Resume and Contact pages are tested and fully functional in both desktop, tablet and mobile mode.
+  Most of the test have been run on the chrome browser. 
 
   - The HTML code is run and tested at:
     - https://validator.w3.org/#validate_by_input
