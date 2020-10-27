@@ -186,6 +186,24 @@ html, body {
  }
  
  /*-------------------------Resume---------------------------*/
+ 
+ .personal-info-item {
+     display: inline-block;
+     margin-bottom: 20px;
+ }
+ 
+ .personal-info-item .value {
+     padding-right: 25px;
+ }
+ 
+ .personal-info-item .value span{
+     position: relative;
+     margin-bottom: 2px;
+ }
+
+ span {
+      padding-left: 10px;
+ }
 
 .resume-frame {
      margin-bottom: 30px;
@@ -292,7 +310,7 @@ html, body {
      letter-spacing: 10px;
      font-size: 22px;
      margin: 5px;
-     
+     cursor: pointer;
 }
 
 .social-links i:hover {
@@ -306,8 +324,10 @@ html, body {
      font-size: 22px;
      margin-bottom: 10px;
      padding-top: 5px;
+     cursor: pointer;
 }
 
 .fa-download:hover {
      color: rgb(134, 144, 163);
+     cursor: pointer;
 }
