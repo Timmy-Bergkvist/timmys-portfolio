@@ -48,7 +48,6 @@ The portfolio contains a total of Three sections:
 
 - Feature idea is to is to have all certificates in a list that can be displayed by pressing buttons.
 - Implement more features and design.
-- To put up the contact me form on a server so it's functional.
 
 ## Technologies Used
 - <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> Html </a>
