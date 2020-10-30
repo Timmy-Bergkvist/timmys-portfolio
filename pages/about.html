@@ -4,13 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="../assets/css/burger-menu.css" type="text/css" />
-    <title>Contact</title>
+
+    <title>About</title>
 </head>
 
 <body>
+
     <header>
         <div class="menu-wrap">
             <input type="checkbox" class="toggler">
@@ -24,8 +30,8 @@
                             <li><a href="../index.html">Home</a></li>
                             <li><a href="resume.html">Resume</a></li>
                             <li><a href="projects.html">Projects</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a class="active" href="contact.html">Contact</a></li>
+                            <li><a class="active" href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,29 +39,9 @@
         </div>
     </header>
 
-
     <div id="container">
         <div id="main">
-            <div class="showcase-inner">
-                <div class="row" id="row">
-                    <div class="inner-row">
-                        <h4 class="header-one">Contact me!</h4>
-                        <p class="sub-text" id="sub-text">Do you need help with Backend, Frontend, Blockchain or Crypto?</p>
-                        <div class="center-form">
-                            <form id="form">
-                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
-                                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
-                                <textarea rows="5" name="projectsummary" id="message" class="form-control" placeholder="Description" required></textarea>
-                                <div class="form-row text-center">
-                                    <div class="col">
-                                        <button onclick="submitInfo()" type="submit" class="btn btn-secondary">Send Request</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
         </div>
     </div>
 
@@ -68,7 +54,7 @@
                     <p>timmy.bergqvist.89@gmail.com</p>
                 </div>
                 <div class="col-sm-4">
-                    <h5> Download Resume</h5>
+                    <h5>Download Resume</h5>
                     <a href="../assets/certificates/timmy-cv-english.pdf" target="_blank">
                         <i class="fa fa-download"></i>
                     </a>
@@ -102,6 +88,13 @@
         </div>
     </footer>
 
+    <!-- Return to top button -->
+    <div>
+        <a id="return-to-top">
+            <i class="fas fa-arrow-up mx-auto my-auto"></i>
+        </a>
+    </div>
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/4fdc8c1c9c.js"></script>
 
@@ -113,15 +106,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <!-- JavaScrip scripts -->
-    <script src="../assets/js/contact.js"></script>
-
-    <!-- JsEmail -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-    (function() {
-    emailjs.init("user_06t3L909DoJC4YF37CSuP");
-    })();
-    </script>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
