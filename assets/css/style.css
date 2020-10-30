@@ -322,6 +322,46 @@ dt {
      background-color: rgba(3, 80, 61, 0.62);
 }
 
+/*---------------------About------------------------*/
+
+.about-frame {
+     background: rgba(0, 0, 0, 0.404);
+     margin: 30px 60px 50px 60px;
+}
+
+.about-text {
+     padding: 25px 35px 20px 35px;
+     position: relative;
+     color: #f8f8f8;
+     font-family: sans-serif;
+}
+
+.about-text p {
+     padding: 0;
+     font-family: "Exo", sans-serif;
+     font-size: 13px;
+}
+
+/*col-lg-12*/
+@media (min-width: 960px) {
+      .about-frame {
+          margin: 30px 150px 50px 150px;
+     }
+     .about-text {
+          padding: 25px 60px 20px 60px;
+     }
+}
+
+/*col-xl-12*/
+@media (min-width: 1140px) {
+     .about-frame {
+          margin: 30px 150px 50px 150px;
+     }
+     .about-text {
+          padding: 25px 60px 20px 60px;
+     }
+}
+
      
 /*---------------------Footer------------------------*/
 
