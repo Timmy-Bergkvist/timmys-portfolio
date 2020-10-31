@@ -87,6 +87,12 @@ html, body {
 
 /*--------------------Section-----------------------*/
 
+.btn-secondary {
+     background-color: #529c90;
+     color: #f8f8f8;
+     border: #529c90;
+}
+
 .sub-text {
      max-width: 60%;
      text-align: center;
@@ -163,21 +169,6 @@ html, body {
 }
 
 /* ----------------------------Contact-button-------------------------*/
-
-.btn {
-     display: inline-block;
-     border: none;
-     background-color: #f8f8f8;
-     color: black;
-     padding: 0.75rem 1.5rem;
-     margin-top: 1rem;
-     text-decoration: none;
-     transition:  0.5s ease-in;
-}
-
-.btn:hover {
-     opacity: 1;
-}
 
  button[type="submit"] {
      margin-top: 15px;
@@ -321,6 +312,84 @@ dt {
      width: 0;
      background-color: rgba(3, 80, 61, 0.62);
 }
+
+/*--------------------Projects-----------------------*/
+
+.card {
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     border: 1px solid rgba(0, 0, 0, 0.541);
+     border-radius: .25rem;
+     background: rgba(0, 0, 0, 0.541);
+     width: 18rem;
+}
+
+.img-frame {
+     padding: 25px 25px 0px 25px;
+     background: none;
+}
+
+.card-img-top {
+     border-radius: 10px;
+}
+
+.card-body {
+     color: #f8f8f8;
+     background: none;
+}
+
+.card a {
+     margin-right: 20px !important;
+}
+
+.card-title {
+     color: #f8f8f8;
+}
+
+.card-text {
+     color: #f8f8f8;
+}
+
+.html-dot {
+     color: #e34c26;
+}
+
+.css-dot {
+     color: #563d7c;
+}
+
+.js-dot {
+     color: #f1e05a;
+}
+
+.py-dot {
+     color: #3572A5;
+}
+
+.github-card__metas span:first-child {
+     padding-left: 0;
+}
+
+.card-languages span:first-child {
+     padding-left: 0;
+}
+
+.github-card {
+     display: block;
+     box-sizing: border-box;
+     text-decoration: none;
+     font-size: 13px;
+     flex: 1;
+     min-width: 250px;
+}
+   
 
 /*---------------------About------------------------*/
 

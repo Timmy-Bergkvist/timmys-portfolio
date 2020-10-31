@@ -93,4 +93,3 @@ At the moment the form in contact me section is not operating because it not hos
     - https://www.youtube.com/watch?v=DZg6UfS5zYg
     - https://www.sitebuilderreport.com/
     - https://github.com/Code-Institute-Solutions/readme-template
-    - <a href="/assets/images/about-inspiration-picture.jpg" target="_blank">Inspiration for about section</a>
