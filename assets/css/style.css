@@ -315,6 +315,28 @@ dt {
 
 /*--------------------Projects-----------------------*/
 
+.card-container {
+     margin-bottom: 25px;
+}
+
+
+.projects-frame {
+     margin-bottom: 30px;
+     margin-top: 30px;
+     margin-left: 60px;
+     margin-right: 60px;
+}
+
+/*col-sm*/
+@media (max-width: 576px) {
+     .projects-frame {
+          margin-bottom: 30px;
+          margin-top: 30px;
+          margin-left: 15px;
+          margin-right: 15px;
+     }
+}
+
 .card {
      position: relative;
      display: -ms-flexbox;
