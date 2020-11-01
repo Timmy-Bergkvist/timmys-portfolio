@@ -46,13 +46,13 @@
                         <h4 class="header-one">Contact me!</h4>
                         <p class="sub-text" id="sub-text">Do you need help with Backend, Frontend, Blockchain or Crypto?</p>
                         <div class="center-form">
-                            <form id="form">
+                            <form id="form" onsubmit="return submitInfo()">
                                 <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
                                 <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
                                 <textarea rows="5" name="projectsummary" id="message" class="form-control" placeholder="Description" required></textarea>
                                 <div class="form-row text-center">
                                     <div class="col">
-                                        <button onclick="submitInfo()" type="submit" class="btn btn-secondary btn-lg">Send Request</button>
+                                        <button value="Submit" type="submit" class="btn btn-secondary btn-lg">Send Request</button>
                                     </div>
                                 </div>
                             </form>
